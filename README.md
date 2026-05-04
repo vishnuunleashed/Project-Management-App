@@ -18,21 +18,55 @@ Welcome to the **Sample Project Enhanced Features** repository! This is a robust
 * **Secure Storage**: Sensitive information is securely persisted using `flutter_secure_storage`.
 * **Dynamic Theming**: Supports on-the-fly theme switching via `animated_theme_switcher` and uses Google's PlusJakartaSans and Righteous fonts.
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack & Dependencies
 
-- **Framework**: [Flutter](https://flutter.dev/) (SDK >=3.10.6)
-- **Language**: [Dart](https://dart.dev/)
-- **State Management**: [Riverpod](https://riverpod.dev/)
-- **Routing**: [GoRouter](https://pub.dev/packages/go_router)
-- **Local Database**: [Hive](https://docs.hivedb.dev/)
-- **Networking**: [Dio](https://pub.dev/packages/dio)
-- **UI Components**: 
-  - `fl_chart`
-  - `carousel_slider`
-  - `flutter_slidable`
-  - `dropdown_search`
-  - `flutter_svg`
+The project relies on a carefully curated set of packages to deliver a premium, high-performance experience. Below is a breakdown of the core dependencies and their purpose in the application:
 
+### State Management & Architecture
+- **`flutter_riverpod`**: Provides robust, scalable state management and dependency injection, ensuring the UI remains highly responsive and decoupled from business logic.
+
+### Core & Networking
+- **`dio` & `http`**: Handles advanced HTTP networking, API interactions, and RESTful requests.
+- **`go_router`**: Manages declarative routing, navigation, and deep linking.
+- **`connectivity_plus`**: Monitors network connection state for offline/online capability switching.
+
+### Storage & Caching
+- **`hive` & `hive_flutter`**: Blazing fast, local NoSQL database used for offline data caching.
+- **`shared_preferences`**: Lightweight persistence for user settings and preferences.
+- **`flutter_secure_storage`**: Encrypted, secure storage for sensitive information like authentication tokens.
+- **`cached_network_image`**: Efficient downloading, rendering, and caching of web images.
+
+### Firebase & Notifications
+- **`firebase_core` & `firebase_messaging`**: Core Firebase services and push notifications via Firebase Cloud Messaging (FCM).
+- **`flutter_local_notifications`**: Powers complex local device notifications.
+
+### Mapping & Location
+- **`flutter_map` & `latlong2`**: Renders interactive maps and handles geographical coordinates.
+- **`location` & `geocoding`**: Retrieves the device's GPS location and translates coordinates into human-readable addresses.
+- **`proj4dart`**: Coordinate reference system transformations for advanced mapping needs.
+
+### Media & Documents
+- **`image_picker` & `file_picker`**: Native dialogs for selecting images, videos, and documents from the device.
+- **`syncfusion_flutter_pdfviewer`**: High-quality, robust rendering of PDF documents.
+- **`photo_view`**: Provides zoomable, interactive image viewing capabilities.
+- **`open_filex`**: Opens downloaded or locally generated files using the device's native applications.
+
+### UI & UX Components
+- **`fl_chart`**: Renders complex, interactive graphs and dashboards (e.g., for analytics).
+- **`animated_theme_switcher`**: Seamless, animated transitions between light and dark themes.
+- **`flutter_animate`**: Adds highly customizable micro-animations to enhance the user experience.
+- **`flutter_slidable`**: Enables intuitive swipe-to-reveal actions on list items.
+- **`dropdown_search`**: Searchable dropdown menus for large datasets.
+- **`carousel_slider`**: Interactive image and content carousels.
+- **`flutter_svg`**: Crisp rendering of vector graphics (SVG) across all screen densities.
+- **`scrollable_positioned_list` & `expandable_page_view`**: Advanced UI controls for scrolling to specific indexes and auto-resizing page views.
+- **`visibility_detector`**: Tracks when widgets become visible or hidden in the viewport to trigger animations or lazy loading.
+
+### System & Background Integrations
+- **`workmanager`**: Enables reliable background task execution, essential for offline data syncing when the app is closed.
+- **`permission_handler`**: Streamlines the process of requesting OS-level user permissions (camera, location, storage).
+- **`webview_flutter`**: Displays external web content directly within the application.
+- **`url_launcher`**: Opens external URLs, launches phone dialers, or opens email clients.
 ## 📦 Project Structure
 
 ```text
