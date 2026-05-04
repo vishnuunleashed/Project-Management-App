@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "infra-project-management-system",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "infra-project-management-system (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "infra-project-management-system (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "base",
+            "cwd": "base",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "base (profile mode)",
+            "cwd": "base",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "base (release mode)",
+            "cwd": "base",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "eraser-main",
+            "cwd": "eraser-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "eraser-main (profile mode)",
+            "cwd": "eraser-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "eraser-main (release mode)",
+            "cwd": "eraser-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "loading_overlay",
+            "cwd": "base\\loading_overlay",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "loading_overlay (profile mode)",
+            "cwd": "base\\loading_overlay",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "loading_overlay (release mode)",
+            "cwd": "base\\loading_overlay",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="default_notification_channel_id">Keechery</string>
+    <string name="default_notification_channel_description">Notifications for Keechery</string>
+    <string name="default_notification_channel_name">Keechery Notification Channel</string>
+</resources>

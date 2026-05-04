@@ -1,0 +1,5 @@
+import 'package:interior_design/presentation/provider/close_support_request/close_support_request_provider.dart';
+
+class ViewServiceSupportRequestSiteWiseProvider extends CloseSupportRequestProvider{
+
+}

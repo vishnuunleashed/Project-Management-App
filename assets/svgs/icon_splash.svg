@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640">
+  <defs>
+    <linearGradient id="r1" x1="160" x2="480" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1590D6"/>
+      <stop offset="1" stop-color="#7BC7F4"/>
+    </linearGradient>
+
+    <path id="ribbonPath" d="M320 140
+             C420 140 480 200 480 280
+             C480 360 380 360 320 420
+             C260 360 160 360 160 280
+             C160 200 220 140 320 140 Z" />
+
+    <clipPath id="clipRibbon"><use href="#ribbonPath" /></clipPath>
+    <path id="ribbonHighlight" d="M320 220 C372 220 400 250 400 280 C400 310 372 340 320 340 C268 340 240 310 240 280 C240 250 268 220 320 220 Z" />
+  </defs>
+
+  <g transform="translate(96,96) scale(0.7)">
+    <use href="#ribbonPath" fill="url(#r1)" />
+    <use href="#ribbonHighlight" fill="#ffffff" opacity="0.08" />
+
+    <g clip-path="url(#clipRibbon)" fill="#ffffff" opacity="0.70">
+      <polygon points="310,250 314,256 310,262 306,256" />
+      <polygon points="340,200 344,206 340,212 336,206" />
+      <circle cx="260" cy="260" r="3" />
+      <circle cx="275" cy="245" r="2" />
+      <circle cx="360" cy="320" r="2.2" />
+      <rect x="300" y="190" width="6" height="6" transform="rotate(25 303 193)" rx="1"/>
+      <path d="M382 235 l3 6 l-6 -3 l6 -3 z M382 235 l-3 6 l6 -3 l-6 -3 z" />
+      <circle cx="330" cy="180" r="1.6" />
+      <circle cx="370" cy="210" r="1.6" />
+    </g>
+
+    <!-- Centered wordmark -->
+    <text
+        x="320" y="540"
+        text-anchor="middle"
+        font-family="Segoe UI, Roboto, Arial, sans-serif"
+        font-weight="600"
+        font-size="32"
+        fill="url(#r1)">
+      Space n' Design
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer gear ring -->
+    <g transform="translate(100, 100)">
+        <!-- Main gear shape with 8 teeth -->
+        <path d="
+      M 0,-70
+      L 8,-65
+      L 8,-55
+      L 0,-50
+
+      A 50,50 0 0,1 35.36,-35.36
+      L 38.89,-38.89
+      L 46.67,-31.11
+      L 50,-35.36
+
+      A 50,50 0 0,1 70,0
+      L 65,8
+      L 55,8
+      L 50,0
+
+      A 50,50 0 0,1 35.36,35.36
+      L 38.89,38.89
+      L 31.11,46.67
+      L 35.36,50
+
+      A 50,50 0 0,1 0,70
+      L -8,65
+      L -8,55
+      L 0,50
+
+      A 50,50 0 0,1 -35.36,35.36
+      L -38.89,38.89
+      L -46.67,31.11
+      L -50,35.36
+
+      A 50,50 0 0,1 -70,0
+      L -65,-8
+      L -55,-8
+      L -50,0
+
+      A 50,50 0 0,1 -35.36,-35.36
+      L -38.89,-38.89
+      L -31.11,-46.67
+      L -35.36,-50
+
+      A 50,50 0 0,1 0,-70
+      Z
+    " fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="2"/>
+
+        <!-- Inner circle (hole) -->
+        <circle cx="0" cy="0" r="28" fill="#ffffff"/>
+
+        <!-- Center decorative ring -->
+        <circle cx="0" cy="0" r="28" fill="none" stroke="url(#gradient3)" stroke-width="3"/>
+        <circle cx="0" cy="0" r="20" fill="none" stroke="url(#gradient3)" stroke-width="2" opacity="0.6"/>
+
+        <!-- Center dot -->
+        <circle cx="0" cy="0" r="8" fill="url(#gradient1)"/>
+    </g>
+
+    <!-- Gradients -->
+    <defs>
+        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+        </linearGradient>
+
+        <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#a8b8ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#8b7ec8;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+</svg>
