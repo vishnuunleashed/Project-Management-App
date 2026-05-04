@@ -5,11 +5,10 @@ class Connections {
 
   factory Connections() => _instance;
 
-  final String _applicationName = "api";
-  final String _serverIp = "192.168.10.50:5000";
-  // final String _clientId = "PIS";
-  final String _clientId = "KEDQ";
-  // final String _clientId = "PIS";
+  final String _applicationName = "";
+  final String _serverIp = "";
+  final String _clientId = "";
+
 
   String get serverIp => "http://$_serverIp";
 
