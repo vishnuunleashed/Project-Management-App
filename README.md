@@ -4,6 +4,7 @@ Welcome to the **Sample Project Enhanced Features** repository! This is a robust
 
 ## 🚀 Key Features
 
+* **Clean Architecture**: The codebase is strictly standardized on Clean Architecture principles, ensuring a clear separation of concerns across the `data`, `domain`, and `presentation` layers for high testability and maintainability.
 * **Offline Capability & Local Storage**: Utilizes `hive` and `shared_preferences` to cache data locally, ensuring seamless functionality without an active internet connection. Background syncing is supported via `workmanager`.
 * **Firebase Integration**: Fully integrated with Firebase for rich features including:
   * Firebase Cloud Messaging (FCM) for push notifications.
@@ -36,8 +37,10 @@ Welcome to the **Sample Project Enhanced Features** repository! This is a robust
 
 ```text
 lib/
-├── presentation/   # UI layer including views, partials, and widgets
-├── utils/          # Utility classes (e.g., Notification API)
+├── data/           # Data layer: API clients, local storage, and data models
+├── domain/         # Domain layer: Business logic, use cases, and repository interfaces
+├── presentation/   # UI layer: Screens, widgets, and state management (Riverpod)
+├── utils/          # Utility classes and helper functions
 └── main.dart       # App entry point
 ```
 *(Additional modules like `base`, `eraser-main`, and `dcc_module` are referenced as local packages.)*
@@ -80,4 +83,6 @@ This application depends on several local packages located within the repository
 Ensure these directories remain intact for the build to succeed.
 
 ## 📄 License
-This project is provided as a sample code snippet. You are free to modify and adapt the codebase to fit your organizational needs.
+**Copyright © 2026 Vishnuprasad T R. All rights reserved.**
+
+This is a private project solely maintained by Vishnuprasad T R. Unauthorized copying, modification, distribution, or use of this project, via any medium, is strictly prohibited without explicit permission.
