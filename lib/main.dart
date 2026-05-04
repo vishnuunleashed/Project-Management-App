@@ -102,7 +102,7 @@ class MyApp extends StatelessWidget {
           builder: (context,provider,ref) {
             final variant = provider.currentVariant;
             return MaterialApp.router(
-                  title: 'Keechery',
+                  title: 'Sample Project',
                   debugShowCheckedModeBanner: false,
                   theme: AppThemes.light(variant),
                   darkTheme: AppThemes.dark(variant),

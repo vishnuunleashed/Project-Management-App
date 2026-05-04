@@ -130,7 +130,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 14),
               const Text(
-                'Keechery',
+                'Sample Project',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w700,

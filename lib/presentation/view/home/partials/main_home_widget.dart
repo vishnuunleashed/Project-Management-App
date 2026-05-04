@@ -195,7 +195,7 @@ class _MainHomeWidgetState extends ConsumerState<MainHomeWidget>
                                  mainAxisSize: MainAxisSize.min,
                                  children: [
                                    Text(
-                                     "Keechery",
+                                     "Sample Project",
                                      style: Theme.of(context)
                                          .textTheme
                                          .headlineLarge

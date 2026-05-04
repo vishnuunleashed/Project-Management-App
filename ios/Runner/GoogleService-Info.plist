@@ -11,9 +11,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.infra.spacendesign</string>
 	<key>PROJECT_ID</key>
-	<string>keechery-space-n-design</string>
+	<string>sample-project-space-n-design</string>
 	<key>STORAGE_BUCKET</key>
-	<string>keechery-space-n-design.firebasestorage.app</string>
+	<string>sample-project-space-n-design.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>

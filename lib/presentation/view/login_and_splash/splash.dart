@@ -121,7 +121,7 @@ class SplashPage extends StatelessWidget {
     child: Column(
       children: [
         Text(
-          'Keechery',
+          'Sample Project',
           style: Theme.of(context).textTheme.titleMedium?.copyWith(
               fontSize: 28,
               color:  Theme.of(context).primaryColor,
