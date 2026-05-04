@@ -1,8 +1,8 @@
 {
   "project_info": {
     "project_number": "1051461813709",
-    "project_id": "keechery-space-n-design",
-    "storage_bucket": "keechery-space-n-design.firebasestorage.app"
+    "project_id": "sample-project-space-n-design",
+    "storage_bucket": "sample-project-space-n-design.firebasestorage.app"
   },
   "client": [
     {

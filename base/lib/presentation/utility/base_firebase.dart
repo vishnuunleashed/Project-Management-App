@@ -170,9 +170,9 @@ class FirebaseNotificationHelper {
     String? routePath,
   }) async {
     const AndroidNotificationDetails androidNotificationDetails = AndroidNotificationDetails(
-      'Keechery', // Channel ID (must match the channel created above)
-      'Keechery Notification Channel', // Channel Name
-      channelDescription: 'Notifications for Keechery',
+      'Sample Project', // Channel ID (must match the channel created above)
+      'Sample Project Notification Channel', // Channel Name
+      channelDescription: 'Notifications for Sample Project',
       importance: Importance.max,
       priority: Priority.high,
       ticker: 'ticker',

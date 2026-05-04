@@ -13,7 +13,7 @@
 
     <!-- for local notification -->
     <application
-        android:label="Keechery"
+        android:label="Sample Project"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true">

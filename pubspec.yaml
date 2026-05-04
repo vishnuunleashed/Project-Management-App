@@ -1,5 +1,5 @@
-name: interior_design
-description: "A client project"
+name: sample_project_enhanced_features
+description: "Sample Code Snippet With Enhanced Features Such as Offline Capability, Firebase, Dashboards."
 publish_to: 'play store and app store'
 version: 1.10.0+16
 environment:
