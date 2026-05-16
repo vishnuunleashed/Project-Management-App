@@ -1,6 +1,6 @@
 # Project Management App With Enhanced Features Such as Offline Capability, Firebase, Dashboards
 
-Welcome to the **Sample Project Enhanced Features** repository! This is a robust Flutter application template showcasing advanced features commonly required in modern, enterprise-grade applications. 
+Welcome to the **Project Managment App** repository! This is a robust Flutter application template showcasing advanced features commonly required in modern, enterprise-grade applications. 
 
 ## 🚀 Key Features
 
@@ -91,7 +91,7 @@ lib/
 1. **Clone the repository:**
    ```bash
    git clone <your-repository-url>
-   cd sample-project-enhanced-features
+   cd Project-Management-App
    ```
 
 2. **Fetch Dependencies:**
