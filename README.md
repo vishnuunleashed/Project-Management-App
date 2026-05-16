@@ -1,4 +1,4 @@
-# Sample Code Snippet With Enhanced Features Such as Offline Capability, Firebase, Dashboards
+# Project Management App With Enhanced Features Such as Offline Capability, Firebase, Dashboards
 
 Welcome to the **Sample Project Enhanced Features** repository! This is a robust Flutter application template showcasing advanced features commonly required in modern, enterprise-grade applications. 
 
